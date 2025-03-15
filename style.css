@@ -1,9 +1,22 @@
 #menu {
     text-align: center;
+    .highlight {
+        background-color: aqua; /* Fond vert */
+        color: white; /* Texte blanc */
+ 
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom :2px white;
 }
 
 #menu span {
     margin: 10px;
+    
 }
 
 body {
@@ -34,15 +47,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom :2px white;
 }
 
 header h1 {
 
     font-family: 'Monserrat';
+    flex-direction: row ;
 }
+
+    
+    
 
 h1 span {
     color: aqua;
+}
+.trait-separateur {
+    width: 100%; /* Largeur totale */
+    height: 0,2px; /* Épaisseur du trait */
+    background-color: white; /* Couleur du trait */
+   
+    
 }
 
 h2 {
